@@ -15,7 +15,7 @@ body {
     background-color: var(--clr-light_gray);
     display: grid;
     place-content: center;
-    font-size: 15px;
+    font-size: 0.9375rem;
     font-family: var(--ff-all);
 }
 .container {
@@ -34,11 +34,11 @@ body {
 
 .product__content {
     text-align: center;
-    padding: 15px;
+    padding: 15px; 
 }
 .content__title {
     color: var(--clr-dark_blue);
-    font-size: 22px;
+    font-size: 1.375rem;
     font-weight: var(--fw-700);
     margin-bottom: 15px;
 }
