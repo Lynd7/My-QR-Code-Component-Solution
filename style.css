@@ -1,7 +1,8 @@
+/*--Custom Properties--*/
 :root {
     --clr-white:hsl(0, 0%, 100%);
     --clr-light_gray: hsl(212, 45%, 89%);
-    --clr-grayish_blue: hsl(220, 15%, 55%);
+    --clr-grayish_blue: hsl(220, 15%, 55%, 0.6);
     --clr-dark_blue:hsl(218, 44%, 22%);
 
     --fw-400:400;
@@ -14,26 +15,26 @@ body {
     background-color: var(--clr-light_gray);
     display: grid;
     place-content: center;
+    font-size: 15px;
     font-family: var(--ff-all);
 }
 .container {
-    max-width: 280px;
-    height: 462px;
+    max-width: 300px;
+    height: 470px;
     padding: 15px;
     background-color: var(--clr-white);
-    border-radius: 15px;
+    border-radius: 20px;
     overflow: hidden;
 }
 
 .product__image {
-    border-radius: 15px;
+    border-radius: 20px;
     overflow: hidden;
-    margin-bottom: 15px;
 }
 
 .product__content {
     text-align: center;
-    padding: 10px;
+    padding: 15px;
 }
 .content__title {
     color: var(--clr-dark_blue);
@@ -43,6 +44,5 @@ body {
 }
 .content__text {
     font-weight: var(--fw-400);
-    font-size: 16px;
     color: var(--clr-grayish_blue);
 }
